@@ -1,1 +1,210 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d10">
+  <meta name="description"
+        content="ProgresFit: registro de entrenamiento, alimentación y progreso personal.">
+  <title>ProgresFit | Tu progreso, siempre contigo</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #0c0d10;
+      color: #f5f5f7;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 860px;
+      margin: auto;
+      padding: 32px 22px 60px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 27px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+    .logo span { color: #e72837; }
+    a { color: #ff7c87; overflow-wrap: anywhere; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { font-size: 14px; }
+    .hero { padding: 70px 0 38px; }
+    .tag {
+      color: #ff7c87;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    h1 {
+      font-size: clamp(38px, 8vw, 64px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+      margin: 20px 0;
+    }
+    h2 { font-size: 27px; line-height: 1.3; }
+    h3 { font-size: 18px; margin-top: 28px; }
+    p, li { color: #bfc0c8; }
+    .intro { font-size: 19px; max-width: 620px; }
+    .card {
+      margin-top: 24px;
+      padding: 26px;
+      border: 1px solid #34363e;
+      border-radius: 20px;
+      background: #16171c;
+    }
+    section { scroll-margin-top: 24px; }
+    ul { padding-left: 22px; }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #34363e;
+      padding-top: 22px;
+      color: #bfc0c8;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo">Progres<span>Fit</span></div>
+    <nav aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#privacidad">Privacidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="tag">UN DÍA A LA VEZ</div>
+    <h1>Tu progreso,<br>siempre contigo.</h1>
+    <p class="intro">
+      ProgresFit es una aplicación Android para registrar tus
+      entrenamientos, alimentación, peso, medidas y progreso personal.
+    </p>
+    <p>
+      La conexión opcional con Google Drive permite guardar y recuperar
+      copias de tus registros en tu propia cuenta.
+    </p>
+  </section>
+
+  <section class="card" aria-labelledby="copias">
+    <h2 id="copias">Tú decides cuándo guardar</h2>
+    <p>
+      Tus registros se guardan en el teléfono. La copia en Drive se
+      actualiza cuando pulsas «Crear copia». Iniciar sesión con Google
+      no sube ni restaura tus registros automáticamente.
+    </p>
+    <p>
+      También puedes utilizar la opción de copia manual disponible
+      en la aplicación.
+    </p>
+  </section>
+
+  <section id="privacidad" class="card">
+    <h2>Política de privacidad</h2>
+    <p>Última actualización: 9 de noviembre de 2026.</p>
+    <p>
+      Esta política describe el registro local y la función de copias
+      de seguridad con Google Drive de ProgresFit.
+    </p>
+
+    <h3>Información que registras</h3>
+    <p>
+      La aplicación permite introducir información de entrenamiento,
+      ejercicios, cargas, alimentación, peso, medidas, objetivos y
+      fotografías de progreso. El contenido de tus registros depende
+      de las funciones que utilices y de lo que decidas introducir.
+    </p>
+
+    <h3>Uso de los datos</h3>
+    <p>
+      Los registros se utilizan para mostrar tu historial y progreso.
+      Cuando solicitas una copia de seguridad, los datos incluidos
+      en ella se utilizan para permitir su recuperación posterior.
+    </p>
+
+    <h3>Conexión con Google Drive</h3>
+    <p>
+      Conectar tu cuenta de Google es opcional. Google muestra los
+      permisos solicitados antes de que autorices el acceso.
+      La función utiliza esa autorización para guardar y recuperar
+      las copias de ProgresFit en la cuenta que selecciones.
+    </p>
+    <p>
+      Google procesa el inicio de sesión y el almacenamiento en Drive
+      conforme a sus propias políticas. No debes facilitar tu
+      contraseña de Google al desarrollador de ProgresFit.
+    </p>
+    <p>
+      <a href="https://policies.google.com/privacy">
+        Consultar la política de privacidad de Google
+      </a>
+    </p>
+
+    <h3>Almacenamiento y conservación</h3>
+    <p>
+      Los registros locales permanecen en el dispositivo hasta que
+      se eliminen. Las copias guardadas en Drive se conservan
+      por separado: eliminar datos del teléfono no elimina por sí
+      solo las copias existentes.
+    </p>
+    <p>
+      Las copias exportadas manualmente permanecen en la ubicación
+      donde las guardes y bajo el control de quien tenga acceso a ella.
+    </p>
+
+    <h3>Control y eliminación</h3>
+    <p>
+      Puedes revocar la conexión de ProgresFit desde las conexiones
+      con aplicaciones de terceros de tu cuenta de Google.
+      Revocar el acceso no elimina automáticamente las copias.
+    </p>
+    <p>
+      Para eliminar los datos locales puedes borrar el almacenamiento
+      de ProgresFit desde los ajustes de Android. Esta acción elimina
+      los registros locales de la aplicación.
+      Para consultas sobre eliminación de copias, utiliza el correo
+      de contacto indicado abajo.
+    </p>
+
+    <h3>Protección de tus registros</h3>
+    <p>
+      Protege tu teléfono y tu cuenta de Google. Las copias pueden
+      contener información personal, medidas y fotografías:
+      compártelas únicamente con las personas que elijas.
+    </p>
+
+    <h3>Cambios en esta política</h3>
+    <p>
+      Si cambia el funcionamiento descrito, esta página se actualizará
+      con una nueva fecha.
+    </p>
+  </section>
+
+  <section id="contacto" class="card">
+    <h2>Contacto y asistencia</h2>
+    <p>
+      Para consultas sobre ProgresFit, privacidad o copias:
+    </p>
+    <a href="mailto:candradegredydental@gmail.com">
+      candradegredydental@gmail.com
+    </a>
+  </section>
+
+  <footer>
+    ProgresFit · Construye tu mejor versión.
+  </footer>
+</main>
+</body>
+</html>
